@@ -1,0 +1,27 @@
+# Dados brutos e processados
+data/raw/*
+data/processed/*
+
+# Mantém a estrutura das pastas
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Power BI
+power-bi/*.tmp
+power-bi/*.bak
+
+# PostgreSQL
+*.backup
+*.dump
+
+# Configurações locais e credenciais
+.env
+.env.*
+!.env.example
+
+# Sistema operacional
+Thumbs.db
+.DS_Store
+
+# VS Code
+.vscode/ 
