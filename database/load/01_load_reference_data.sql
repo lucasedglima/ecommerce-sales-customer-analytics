@@ -1,0 +1,1 @@
+\copy product_category_translation (product_category_name, product_category_name_english) FROM 'data/raw/product_category_name_translation.csv' WITH (FORMAT CSV, HEADER TRUE, DELIMITER ',', ENCODING 'UTF8')
