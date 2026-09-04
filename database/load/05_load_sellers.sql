@@ -1,0 +1,1 @@
+\copy sellers (seller_id, seller_zip_code_prefix, seller_city, seller_state) FROM 'data/raw/olist_sellers_dataset.csv' WITH (FORMAT CSV, HEADER TRUE, DELIMITER ',', ENCODING 'UTF8')

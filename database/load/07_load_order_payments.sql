@@ -1,0 +1,1 @@
+\copy order_payments (order_id, payment_sequential, payment_type, payment_installments, payment_value) FROM 'data/raw/olist_order_payments_dataset.csv' WITH (FORMAT CSV, HEADER TRUE, DELIMITER ',', ENCODING 'UTF8')
